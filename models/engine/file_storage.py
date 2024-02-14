@@ -11,7 +11,7 @@ from models.review import Review
 
 
 class FileStorage:
-    """Represent the abstracted storage engine.
+    """Represent an abstracted storage engine.
 
     Attributes:
         __file_path (str): The name of the file to save objects to.
@@ -47,4 +47,3 @@ class FileStorage:
                     self.new(eval(cls_name)(**o))
         except FileNotFoundError:
             return
-
