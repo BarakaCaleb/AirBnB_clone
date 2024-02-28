@@ -18,8 +18,7 @@ HolbertonBnB is a full web application, integrating database storage, front-end 
 The console is a command line interpreter that permits management of the backend of the application. 
 It can be used to handle and manipulate all classes utilized by the application.
 
-###Usage of the console
-
+## Usage of the console :hammer:
 The Holberton console can run both interactively and non-interactivrly.
 
 To run in non-interactive mode, pipe any commands(s) into an execution of the file 'console.py' at the command line.
